@@ -7,7 +7,7 @@ class MovieService{
    final dio = Dio();
      final response =
      await dio.get('https://api.themoviedb.org/3/movie/$category', queryParameters: {
-       'api_key': '2a0f92600c667e191a1f8',
+       'api_key': '2a0f92600c667e19a1f8',
        'language': 'en-Us',
        'page': page
      });
@@ -23,7 +23,7 @@ class MovieService{
    final dio = Dio();
    final response =
    await dio.get('https://api.themoviedb.org/3/search/movie', queryParameters: {
-     'api_key': '2a0f926961d00ce191461f8',
+     'api_key': '2a0f926961d0e191461f8',
      'language': 'en-Us',
      'page': page,
      'query': searchText,
